@@ -1,38 +1,43 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 
+:root {
+  --primary: #F86E21;
+  --link: #19A9BC;
+  --white: #fff;
+}
+
 .main {
-  background-color: #e4e6ec;
+  background-color: var(--white);
   min-height: 100vh;
   font-family: 'Source Sans Pro', sans-serif;
   color: #6f747f;
 }
 
 .navbar {
-  background-color: #e4e6ec;
+  background-color: var(--white);
 }
 
 .navbar-item {
-  color: #cdcdd6;
+  color: var(--link);
 }
 
 .logo {
   background-color: #fd3d6e;
-  color: #fff;
+  color: var(--white);
   border-radius: 50%;
   height: 40px;
   width: 40px;
 }
 
 a.navbar-item:hover {
-  background-color: #e4e6ec;
-  color: #e76b95;
+  background-color: var(--white);
+  color: var(--primary);
 }
 
 a.navbar-item:focus {
-  border-bottom: 3px solid #e76b95;
-  background-color: #e4e6ec;
-  color: #e76b95;
+  background-color: var(--white);
+  color: var(--primary);
 }
 
 img {
@@ -43,4 +48,13 @@ img {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.1;
   color: #1e1e1e;
+}
+
+.read__more {
+  color: var(--link);
+  cursor: pointer;
+}
+
+a.read__more:hover {
+  color: #0e6570;
 }

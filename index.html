@@ -19,14 +19,14 @@
             D
           </div>
       
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a role="button" id="burger" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
       
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbar-links" class="navbar-menu">
           <div class="navbar-end has-text-weight-bold">
             <a href="#" class="navbar-item">HOME</a>
             <a href="#" class="navbar-item">BLOG</a>
@@ -42,7 +42,7 @@
     
     <!-- hero starts -->
     <div class="container mx-auto mb-4">
-      <h1 class="p-4 my-4 is-size-1-desktop has-text-weight-bold article__title">The Blog</h1>
+      <h1 class="p-4 is-hidden-mobile my-4 is-size-1-desktop has-text-weight-bold article__title">The Blog</h1>
 
       <div class="container mx-auto columns">
         <div class="column is-6">
@@ -51,8 +51,8 @@
         <div class="column is-6 mx-auto">
           <p>June 08, 2023</p>
           <h4 class="is-size-2-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
-
+          <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+          <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Continue Reading</a>
         </div>
       </div>
     </div>
@@ -65,54 +65,61 @@
           <div>
             <img src="./images/7.jpg" alt="">
             <p>March 08, 2023</p>
-            <h4 class="is-size-3-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum.</p>
+            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
             <img src="./images/3.jpg" alt="">
             <p>June 08, 2023</p>
-            <h4 class="is-size-3-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <p class="mb-2">Proin aliquet malesuada hendrerit adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
             <img src="./images/4.jpg" alt="">
             <p>May 01, 2023</p>
-            <h4 class="is-size-3-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <p class="mb-2">Quisque at dignissim enim, non pulvinar enim. In fringilla hendrerit mauris, vitae eleifend diam viverra.</p>
+            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
             <img src="./images/5.jpg" alt="">
-            <p>June 08, 2023</p>
-            <h4 class="is-size-3-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+            <p>Feb 13, 2023</p>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <p class="mb-2">Nulla ultricies efficitur lorem, ut lacinia sem convallis non. Curabitur elementum hendrerit ornare.</p>
+            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
             <img src="./images/6.jpg" alt="">
-            <p>June 08, 2023</p>
-            <h4 class="is-size-3-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+            <p>Jan 10, 2023</p>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <p class="mb-2">Aenean et metus condimentum, rhoncus turpis et, pharetra tortor. Vestibulum dignissim.</p>
+            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
             <img src="./images/2.jpg" alt="">
             <p>June 08, 2023</p>
-            <h4 class="is-size-3-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <p class="mb-2">Donec tempus sollicitudin mi eu imperdiet. Sed a justo vel quam hendrerit viverra at in.</p>
+            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
     
       </div>
     <!-- articles ends -->
-
   </main>
+
+  <script src="./index.js"></script>
 </body>
 </html>
