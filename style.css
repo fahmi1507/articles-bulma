@@ -49,3 +49,9 @@ img {
 a.read__more:hover {
   color: #0e6570;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
