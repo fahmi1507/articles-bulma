@@ -49,9 +49,3 @@ img {
 a.read__more:hover {
   color: #0e6570;
 }
-
-.footer__menu > .navbar-item:focus, 
-.footer__menu > .navbar-item:hover {
-  background-color: #fafafa;
-  color: var(--primary);
-}
