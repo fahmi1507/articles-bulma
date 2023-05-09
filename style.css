@@ -5,6 +5,7 @@
   --primary: #F86E21;
   --link: #19A9BC;
   --white: #FFF;
+  --black: #3e3e3e;
 }
 
 .main {
@@ -13,7 +14,7 @@
 }
 
 .navbar-item {
-  color: var(--link);
+  color: var(--black);
 }
 
 .logo {
@@ -37,7 +38,7 @@ img {
 .article__title {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.1;
-  color: #1e1e1e;
+  color: var(--black);
 }
 
 .read__more {
@@ -47,4 +48,10 @@ img {
 
 a.read__more:hover {
   color: #0e6570;
+}
+
+.footer__menu > .navbar-item:focus, 
+.footer__menu > .navbar-item:hover {
+  background-color: #fafafa;
+  color: var(--primary);
 }
