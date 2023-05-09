@@ -4,18 +4,12 @@
 :root {
   --primary: #F86E21;
   --link: #19A9BC;
-  --white: #fff;
+  --white: #FFF;
 }
 
 .main {
-  background-color: var(--white);
-  min-height: 100vh;
   font-family: 'Source Sans Pro', sans-serif;
   color: #6f747f;
-}
-
-.navbar {
-  background-color: var(--white);
 }
 
 .navbar-item {
@@ -30,11 +24,7 @@
   width: 40px;
 }
 
-a.navbar-item:hover {
-  background-color: var(--white);
-  color: var(--primary);
-}
-
+a.navbar-item:hover,
 a.navbar-item:focus {
   background-color: var(--white);
   color: var(--primary);
