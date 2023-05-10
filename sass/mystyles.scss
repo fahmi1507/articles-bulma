@@ -14,6 +14,7 @@ $ap-mobile: 768px;
 // Customize Bulma variables
 $link: $ap-link;
 $black: $ap-black;
+$size-1: 6rem;
 
 // Only import components used in the page
 @import '../bulma/sass/utilities/_all.sass';
