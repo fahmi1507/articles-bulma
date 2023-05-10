@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+// Our own variables
+$ap-primary: #F86E21;
+$ap-link: #19A9BC;
+$ap-text: #6f747f;
+$ap-white: #FFF;
+$ap-black: #3e3e3e;
+$ap-mobile: 768px;
+
+// Customize Bulma variables
+$link: $ap-link;
+$black: $ap-black;
+
+// Only import components used in the page
+@import '../bulma/sass/utilities/_all.sass';
+@import '../bulma/sass/base/_all.sass';
+@import '../bulma/sass/components/navbar.sass';
+@import '../bulma/sass/elements/container.sass';
+@import '../bulma/sass/grid/columns.sass';
+@import '../bulma/sass/helpers/flexbox.sass';
+@import '../bulma/sass/helpers/typography.sass';
+@import '../bulma/sass/helpers/visibility.sass';
+@import '../bulma/sass/helpers/color.sass';
+@import '../bulma/sass/helpers/spacing.sass';
+@import '../bulma/sass/helpers/other.sass';
+@import '../bulma/sass/layout/footer.sass';
+
+.main {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $ap-text;
+}
+
+a.navbar-item {
+  &:hover,
+  &:focus {
+    background-color: $ap-white;
+    color: $ap-primary !important;
+  }
+}
+
+.user__initials {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+img {
+  border-radius: 8px
+}
+
+.article__title {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.1;
+}
+
+.read__more {
+  &:hover {
+    color: #0e6570;
+  }
+}
+
+.container {
+  @media only screen and (max-width: $ap-mobile) {
+    padding: 0 1rem; 
+  }
+}

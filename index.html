@@ -4,20 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/mystyles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Document</title>
 </head>
 <body>
   <main class="main">
-
     <!-- navbar starts -->
-      <nav class="navbar p-4 mb-4" role="navigation" aria-label="main navigation">
+      <nav class="navbar p-4" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <div
-            class="has-text-weight-bold logo is-size-4 is-flex is-justify-content-center is-align-items-center is-align-self-center"
+            class="is-clickable has-text-weight-bold has-background-danger has-text-white user__initials is-size-4 is-flex is-justify-content-center is-align-items-center is-align-self-center"
           >
-            D
+            M
           </div>
       
           <a role="button" id="burger" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -29,12 +28,12 @@
       
         <div id="navbar-links" class="navbar-menu">
           <div class="navbar-end has-text-weight-bold">
-            <a href="#" class="navbar-item">HOME</a>
-            <a href="#" class="navbar-item">BLOG</a>
-            <a href="#" class="navbar-item">BOOKMARS</a>
-            <a href="#" class="navbar-item">ELEMENTS</a>
-            <a href="#" class="navbar-item">PLAYLISTS</a>
-            <a href="#" class="navbar-item">BOOKS</a>
+            <a href="#" class="navbar-item has-text-black">HOME</a>
+            <a href="#" class="navbar-item has-text-black">BLOG</a>
+            <a href="#" class="navbar-item has-text-black">BOOKMARS</a>
+            <a href="#" class="navbar-item has-text-black">ELEMENTS</a>
+            <a href="#" class="navbar-item has-text-black">PLAYLISTS</a>
+            <a href="#" class="navbar-item has-text-black">BOOKS</a>
           </div>
         </div>
       </nav>
@@ -43,17 +42,17 @@
     
     <!-- hero starts -->
     <div class="container mx-auto mb-4 p-0">
-      <h1 class="p-4 is-hidden-mobile my-4 is-size-1-desktop has-text-weight-bold article__title">The Blog</h1>
+      <h1 class="px-4 py-2 is-hidden-mobile mb-4 is-size-1-desktop has-text-weight-bold article__title has-text-black">The Blog</h1>
 
       <div class="container mx-auto columns">
         <div class="column is-6">
-          <img src="./images/1.jpg" alt="ideas">
+          <img src="./images/1.jpg" alt="car">
         </div>
         <div class="column is-6 mx-auto">
           <p>June 08, 2023</p>
-          <h4 class="is-size-2-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+          <h4 class="is-size-2-desktop has-text-weight-bold article__title has-text-black my-2">Lorem ipsum dolor sit amet consectetur.</h4>
           <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
-          <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Continue Reading</a>
+          <a href="#" class="read__more is-clickable has-text-link has-text-weight-bold is-size-5-desktop">Continue Reading</a>
         </div>
       </div>
     </div>
@@ -63,56 +62,56 @@
       <div class="columns is-multiline container mx-auto">
         <div class="column is-4">
           <div>
-            <img src="./images/7.jpg" alt="">
+            <img src="./images/7.jpg" alt="soldier">
             <p>March 08, 2023</p>
-            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title has-text-black my-2">Lorem ipsum dolor sit amet consectetur.</h4>
             <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sit alias voluptate? Ut, earum.</p>
-            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
+            <a href="#" class="read__more is-clickable has-text-link has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
-            <img src="./images/3.jpg" alt="">
+            <img src="./images/3.jpg" alt="cashier">
             <p>June 08, 2023</p>
-            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title has-text-black my-2">Lorem ipsum dolor sit amet consectetur.</h4>
             <p class="mb-2">Proin aliquet malesuada hendrerit adipisicing elit. Delectus sit alias voluptate? Ut, earum repellendus.</p>
-            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
+            <a href="#" class="read__more is-clickable has-text-link has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
-            <img src="./images/4.jpg" alt="">
+            <img src="./images/4.jpg" alt="plates">
             <p>May 01, 2023</p>
-            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title has-text-black my-2">Lorem ipsum dolor sit amet consectetur.</h4>
             <p class="mb-2">Quisque at dignissim enim, non pulvinar enim. In fringilla hendrerit mauris, vitae eleifend diam viverra.</p>
-            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
+            <a href="#" class="read__more is-clickable has-text-link has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
-            <img src="./images/5.jpg" alt="">
+            <img src="./images/5.jpg" alt="flowers">
             <p>Feb 13, 2023</p>
-            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title has-text-black my-2">Lorem ipsum dolor sit amet consectetur.</h4>
             <p class="mb-2">Nulla ultricies efficitur lorem, ut lacinia sem convallis non. Curabitur elementum hendrerit ornare.</p>
-            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
+            <a href="#" class="read__more is-clickable has-text-link has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
-            <img src="./images/6.jpg" alt="">
+            <img src="./images/6.jpg" alt="bubbles">
             <p>Jan 10, 2023</p>
-            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title has-text-black my-2">Lorem ipsum dolor sit amet consectetur.</h4>
             <p class="mb-2">Aenean et metus condimentum, rhoncus turpis et, pharetra tortor. Vestibulum dignissim.</p>
-            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
+            <a href="#" class="read__more is-clickable has-text-link has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
         <div class="column is-4">
           <div>
-            <img src="./images/2.jpg" alt="">
+            <img src="./images/2.jpg" alt="teams">
             <p>June 08, 2023</p>
-            <h4 class="is-size-4-desktop has-text-weight-bold article__title my-2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <h4 class="is-size-4-desktop has-text-weight-bold article__title has-text-black my-2">Lorem ipsum dolor sit amet consectetur.</h4>
             <p class="mb-2">Donec tempus sollicitudin mi eu imperdiet. Sed a justo vel quam hendrerit viverra at in.</p>
-            <a href="#" class="read__more has-text-weight-bold is-size-5-desktop">Read More</a>
+            <a href="#" class="read__more is-clickable has-text-link has-text-weight-bold is-size-5-desktop">Read More</a>
           </div>
         </div>
     
